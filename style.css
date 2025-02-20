@@ -5,3 +5,25 @@
 *{
     color:#000000;
 }
+
+main {
+	color:black;
+	text-align:left;
+	padding:5px;
+	display:block;
+    
+}
+
+aside {
+	padding:5px;
+	width:40%;
+	display:block;
+    float:right
+}
+
+footer {
+    padding:5px;
+	width:100%;
+	display:block;
+    float:right
+}
