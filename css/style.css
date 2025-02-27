@@ -2,28 +2,29 @@
 
 /* regola di reset */
 
-*{
+*{ /* selettore universale */
     color:#000000;
 }
 
-main {
+main { /* selettore  tutti gli elementi in main */
 	color:black;
 	text-align:left;
+	width:60%;
 	padding:5px;
 	display:block;
-    
 }
 
 aside {
 	padding:5px;
 	width:40%;
 	display:block;
-    float:right
+	border-left-style:solid;
+    float:right;
 }
 
 footer {
     padding:5px;
 	width:100%;
 	display:block;
-    float:right
+    float:right;
 }
